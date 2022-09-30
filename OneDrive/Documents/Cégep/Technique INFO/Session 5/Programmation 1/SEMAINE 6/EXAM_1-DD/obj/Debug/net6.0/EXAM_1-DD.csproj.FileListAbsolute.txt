@@ -1,0 +1,15 @@
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\bin\Debug\net6.0\EXAM_1-DD.exe
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\bin\Debug\net6.0\EXAM_1-DD.deps.json
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\bin\Debug\net6.0\EXAM_1-DD.runtimeconfig.json
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\bin\Debug\net6.0\EXAM_1-DD.dll
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\bin\Debug\net6.0\EXAM_1-DD.pdb
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.csproj.AssemblyReference.cache
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.AssemblyInfoInputs.cache
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.AssemblyInfo.cs
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.csproj.CoreCompileInputs.cache
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.dll
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\refint\EXAM_1-DD.dll
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.pdb
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\EXAM_1-DD.genruntimeconfig.cache
+C:\Users\utilisateur\OneDrive\Documents\Cégep\Technique INFO\Session 5\Programmation 1\SEMAINE 6 - Examen 1\EXAM_1-DD\obj\Debug\net6.0\ref\EXAM_1-DD.dll
