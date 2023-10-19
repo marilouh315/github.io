@@ -1,0 +1,624 @@
+/*
+Theme Name: Maril_Travail2
+Author: Marilou Héon
+Author URI: http://www.yourwebsite.com
+Description: Travail 2 d'une reproduction de Apical avec wordpress
+Tags: practical, website
+Version: 1.5
+*/
+
+
+body {
+    background: url("https://apical.xyz/medias/commun/bg.jpg") center/cover no-repeat fixed;
+    /* background-size: cover; */
+    margin: auto;
+    /* height: 100vh; */
+}
+
+.entete_principal {
+    margin: auto;
+}
+/**************************************************************************/
+/*Entete avec titre du site + menu navigation icones*/
+/**************************************************************************/
+.premier_menu {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.menu_container {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauche1 {
+    width: 90%;
+    text-align: center;
+}
+
+.gauche2 {
+    width: auto;
+    margin-left: 250px;
+}
+
+.droite {
+    text-align: right;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu_icones {
+    display: flex;
+
+}
+
+.image_icones {
+    width: 25px;
+}
+
+.icones {
+    padding-left: 15px ;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none; /* Évite que le tooltip soit cliquable */
+    /*transition: all 0.3s ease-out;*/
+    white-space: nowrap; /* Évite le retour à la ligne dans le tooltip */
+}
+
+.tooltip:hover::before {
+    opacity: 1;
+    top: 100%; /* Positionne le tooltip en dessous du texte */
+    left: 50%; /* Centre le tooltip par rapport au texte */
+    transform: translateX(-50%);
+}
+
+
+
+/**************************************************************************/
+/*Menu NavBar*/
+/**************************************************************************/
+.menu_navigation {
+    background-color: aliceblue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_navBar {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.liste_link_nav {
+    box-sizing: border-box;
+    padding-left: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.item_nav {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+.nav_link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #585656;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+/***Dropdown menus************************************************************/
+
+
+.dropdown {
+    position: absolute;
+    z-index: 1000;
+    visibility: hidden;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem; 
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h6 {
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: .875rem;
+    color: #6c757d;
+}
+
+.dropdown_item {
+    text-decoration: none;
+    color: #6c757d;
+    padding: 0.25rem 1.5rem;
+    font-weight: 400;
+    text-align: inherit;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown_divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+
+/*Propriété css pour rendre visible*/
+.visible {
+    visibility: visible;
+}
+/*Propriété css pour rendre invisible*/
+.invisible {
+    visibility: hidden;
+}
+
+/**************************************************************************/
+/*Container du body + Titre*/
+/**************************************************************************/
+.container_principal {
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+    
+}
+
+.container_formations {
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.titre_container {
+    margin-bottom: 40px;
+    padding: 20px;
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+
+.container_bouton {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.bouton_developper {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    text-shadow: 0 1px 0 #fff;
+    padding: 10px;
+    box-shadow:0 3px 3px 0 rgba(33,37,41,.1);
+    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transform: all 1s;
+}
+.bouton_developper:hover {
+    background-image: linear-gradient(to top,#fff 0,#e0e0e0 100%);
+}
+
+
+/**************************************************************************/
+/*Chapitres*/
+/**************************************************************************/
+.contenu {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    min-width: auto;
+}
+
+.chapitre1 {
+    height: 60px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.chapitre2 {
+    height: 100%;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits the color from the parent element */
+    cursor: pointer; /* Changes cursor to pointer on hover, indicating it's clickable */
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lien_chapitre {
+    /*cursor: pointer;*/
+    transform: all 1s;
+}
+.lien_chapitre:hover {
+    color: #0e11bd;
+}
+
+.span {
+    font-weight: 500;
+    font-size: 1.05em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.chapitre_visible {
+    display: block;
+}
+.chapitre_block {
+    display: none;
+}
+
+/**Collapse classes*************************************************************************************/
+.collapse_chapitre {
+    border: 1px solid rgba(0,0,0,.125);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+/* .collapse_fiche_chapitre {
+    padding-right: ;
+} */
+
+.collapse_liste {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+/*<li>*/
+.collapse_item {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    height: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/*<a>*/
+.collapse_link {
+    color: #0a0dcd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/**Collapsibles***********************************************************************************/
+
+/* .collapsible {
+    cursor: pointer;
+} */
+
+/* .collapsible-content {
+    display: none;
+} */
+
+.collapse_liste {
+    display: none;
+}
+.collapsible.active .collapsible-content {
+    display: block;
+}
+
+
+
+
+/**************************************************************************/
+/*Footer*/
+/**************************************************************************/
+footer {
+    box-sizing: border-box;
+    padding: 24px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+
+}
+
+.pied_de_page {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.bouton_suivre {
+
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    text-shadow: 0 1px 0 #fff;
+    padding: 10px;
+    box-shadow:0 3px 3px 0 rgba(33,37,41,.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    cursor: pointer;
+    transform: all 1s;
+}
+
+.bouton_suivre:hover {
+    background-image: linear-gradient(to top,#fff 0,#e0e0e0 100%);
+}
+
+
+
+
+
+
+
+/**************************************************************************/
+/*PAGE Erreur 404*/
+/**************************************************************************/
+.container_404 {
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titre_erreur {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50pt;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 15px black;
+}
+
+.page_title {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30pt;
+    text-shadow: 5px 5px 15px black;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenu_404 {
+    color: #0a0dcd;
+    transform: all 1s;
+
+}
+.contenu_404:hover {
+    text-decoration-line: underline;
+}
+
+
+/**************************************************************************/
+/*Authentification*/
+/**************************************************************************/
+.authentification {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_fermer {
+    display: none;
+}
+
+.container_ouvrir {
+    display: block;
+}
+
+.container_authentification {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 15px;
+    text-shadow: none;
+    z-index: 50;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    top: 160px; /* Positionne le container_authentification juste en dessous de connection icones */
+    right: 10%;
+    width: 340px;
+
+}
+
+.formulaire_authentification {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.divFormulaire1 {
+    text-align: left;
+}
+
+.ligne-formulaire {
+    margin-bottom: 16px;
+}
+
+.label_usager {
+    display: flex;
+    justify-content: space-between;
+}
+#code {
+    display: block;
+    width: 130px;
+    height: 24px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.label_mdp {
+    display: flex;
+    justify-content: space-between;
+
+}
+#motdepasse {
+    display: block;
+    width: 130px;
+    height: 24px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.usager {
+    width: 114px;
+
+}
+
+.mdp {
+    width: 114px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divFormulaire2 {
+    text-align: left;
+}
+
+#resterconnecte {
+    margin-left: 20px;
+}
+
+#soumettre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    text-shadow: 0 1px 0 #fff;
+    padding: 10px;
+    box-shadow:0 3px 3px 0 rgba(33,37,41,.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    cursor: pointer;
+    transform: all 1s;
+}
+
+
+.nouvel_usager {
+    color: #0e11bd;
+    transform: all 1s;
+}
+.nouvel_usager:hover {
+    border-bottom: 1px solid;
+}
+
+.boutonRefermer {
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #aeaeae;
+    background: #605f61;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    bottom: 95%;
+}
